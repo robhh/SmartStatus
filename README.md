@@ -11,4 +11,4 @@ This code provides an example of how to communicate with Smartwatch+ and how to 
 * iPhone battery percentage
 * Current weather
 
-![SmartStatus watchapp](https://github.com/robhh/SmartStatus/blob/master/SmartStatus.jpg)
+![SmartStatus watchapp](https://raw.github.com/robhh/SmartStatus/master/SmartStatus.jpg)
