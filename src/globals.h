@@ -61,14 +61,25 @@
 #define SM_CAL_DETAILS_KEY			0xFC39
 #define SM_DETAILS1_KEY				0xFC3A
 #define SM_DETAILS2_KEY				0xFC3B
+#define SM_CALL_SMS_KEY				0xFC3C
+#define SM_CALL_SMS_UPDATE_KEY		0xFC3D
+#define SM_CALL_SMS_CMD_KEY			0xFC3E
+#define SM_SMS_SENT_KEY             0xFC3F
+#define SM_FIND_MY_PHONE_KEY        0xFC40
+#define SM_REMINDERS_KEY 	       	0xFC41
+#define SM_REMINDERS_DETAILS_KEY    0xFC42
+#define SM_STATUS_CAL_TIME_KEY   	0xFC43
+#define SM_STATUS_CAL_TEXT_KEY   	0xFC44
+#define SM_STATUS_MUS_ARTIST_KEY	0xFC45
+#define SM_STATUS_MUS_TITLE_KEY		0xFC46
 
 
 
 #define STATUS_SCREEN_APP 			NUM_APPS
 
-typedef enum {CALENDAR_APP, MUSIC_APP, GPS_APP, SIRI_APP, STOCKS_APP, BITCOIN_APP, CAMERA_APP, WEATHER_APP, URL_APP, MESSAGES_APP, CALLS_APP, STATUS_SCREEN_APP} AppIDs;
-static char *app_names[] = {"Calendar", "Music", "GPS", "Launch Siri", "Stocks", "Bitcoin", "Camera", "Weather", "HTTP Request", "Messages", "Incoming Calls"};
+typedef enum {CALENDAR_APP, MUSIC_APP, GPS_APP, SIRI_APP, STOCKS_APP, BITCOIN_APP, CAMERA_APP, WEATHER_APP, URL_APP, MESSAGES_APP, CALLS_APP, FINDPHONE_APP, REMINDERS_APP, STATUS_SCREEN_APP} AppIDs;
 
+static char *app_names[] = {"Calendar", "Music", "GPS", "Launch Siri", "Stocks", "Bitcoin", "Camera", "Weather", "HTTP Request", "Messages", "Incoming Calls", "Find My Phone", "Reminders"};
 
 
 #endif
